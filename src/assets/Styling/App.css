@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width: 280px) and (max-width: 500px) {
+    .inputFiled{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .inputFiled input{
+        text-align: center;
+        margin: 0.25rem;
+    }
+  }
